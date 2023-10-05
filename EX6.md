@@ -12,15 +12,16 @@
 ### Create employee table
 #### Query:
 ```
-CREATE TABLE employee (empid INT,empname VARCHAR(10),dept VARCHAR(10),salary DECIMAL(10, 2));
+CREATE TABLE employee (empid INT PRIMARY KEY,empname VARCHAR(10),dept VARCHAR(10),salary DECIMAL(10, 2));
 
-INSERT INTO employee VALUES (1, 'Abi', 'Sales', 100000);
-INSERT INTO employee VALUES (2, 'Divya', 'marketing', 120000);
+insert into employee values (1,'Abi','HR',35000);
+insert into employee values (2,'Divya','TL',25000);
 
+select * from employee;
 select * from employee;
 ```
 #### Table:
-![1](https://github.com/Divya110205/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/119404855/008b9148-cd74-4e60-8f82-61c94093645e)
+![1](https://github.com/Divya110205/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/119404855/bd20c556-76b2-471f-91ee-858ece41df24)
 
 ### PLSQL Cursor code
 ```
@@ -59,7 +60,7 @@ DELIMITER ;
 CALL fetch_employee_data();
 ```
 ### Output:
-![2](https://github.com/Divya110205/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/119404855/60508395-7d88-4821-af32-7fadf3f55bbf)
+![2](https://github.com/Divya110205/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/119404855/62e01ed8-6b5d-4da3-8cf6-ee5a3ef09e21)
 
 ### Result:
 The program is implemented successfully,
