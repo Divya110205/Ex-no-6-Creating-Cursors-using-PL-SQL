@@ -1,6 +1,8 @@
 # Ex. No: 6 Creating Cursors using PL/SQL
+### DATE:
+### AIM: 
 
-### AIM: To create a cursor using PL/SQL.
+To create a cursor using PL/SQL.
 
 ### Steps:
 1. Create employee table with following attributes (empid NUMBER, empname VARCHAR(10), dept VARCHAR(10),salary NUMBER);
